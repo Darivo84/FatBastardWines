@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.eot?v=4.2.0');
+  src: url('fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('fontawesome-webfont.woff?v=4.2.0') format('woff'), url('fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../css/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Minion Pro';
+  src: url('MinionPro-Regular.eot'); /* IE9 Compat Modes */
+  src: url('MinionPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('MinionPro-Regular.woff') format('woff'), /* Modern Browsers */
+       url('MinionPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('MinionPro-Regular.svg#e14324dc900cd012f29ed0264e357058') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

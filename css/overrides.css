@@ -1,0 +1,322 @@
+.center_container{
+	position: relative;width: 100%;
+}
+.center_copy{
+	display:inline-block;
+	vertical-align: middle;
+	margin:auto;
+	width:50%;
+	position: relative;
+}
+.center_img{
+	display:inline-block;
+	vertical-align: middle;
+	margin:auto;
+	width:25%;
+	position: relative;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 101; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+    /*background-color: #fefefe;*/
+    background: #ffffff url("/pages/rovosrail/images/popupbanner.png") no-repeat right top;
+    background-size: 100%;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding-right:10px;
+    /*padding-top: 0px;
+    padding: 20px;*/
+    border: 1px solid #888;
+    /*width: 80%;*/ /* Could be more or less, depending on screen size */
+    width:750px;
+    height:269px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#popup_container{
+	float:right;
+	padding-top:52px;
+}
+#popup_heading{
+	font-size: 3em;
+	line-height: 16px;
+	margin:5px;
+}
+#popup_content{
+	line-height: 16px;
+	font-size: 1.4em;
+}
+#popup_rovos_copy{
+	font-size: 3em;
+	margin:5px;
+	line-height: 16px;
+	font-weight: bold;
+}
+#enter_line{
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:20px;
+}
+#enter_now{
+	line-height: 16px;
+}
+
+@media (max-width: 480px) {
+.center_copy{
+	display:block;
+	vertical-align: middle;
+	margin:auto;
+	position: relative;
+	width:auto;
+}
+.center_img{
+	display:block;
+	vertical-align: middle;
+	margin:auto;
+	position: relative;
+	width:auto;
+}
+.modal-content {
+    /*background-color: #fefefe;*/
+    background: #ffffff url("/pages/rovosrail/images/popupbanner.png") no-repeat right top;
+    background-size: 100%;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding-right:10px;
+    /*padding-top: 0px;
+    padding: 20px;*/
+    border: 1px solid #888;
+    /*width: 80%;*/ /* Could be more or less, depending on screen size */
+    width:300px;
+    height:110px;
+}
+
+#popup_container{
+	float:none;
+	padding-top:12px;
+}
+#popup_heading{
+	font-size: 1.8em;
+	line-height: 12px;
+	margin:5px;
+}
+#popup_content{
+	line-height: 12px;
+	font-size: 0.8em;
+}
+#popup_rovos_copy{
+	font-size: 1.8em;
+	margin:5px;
+	line-height: 12px;
+	font-weight: bold;
+}
+#enter_now{
+	line-height: 0px;
+}
+#enter_line{
+	display: none;
+}
+}
+@media only screen and (min-width: 480px) {
+	.center_copy{
+	display:block;
+	vertical-align: middle;
+	margin:auto;
+	position: relative;
+	width:auto;
+}
+.center_img{
+	display:block;
+	vertical-align: middle;
+	margin:auto;
+	position: relative;
+	width:auto;
+} 
+.modal-content {
+    /*background-color: #fefefe;*/
+    background: #ffffff url("/pages/rovosrail/images/popupbanner.png") no-repeat right top;
+    background-size: 100%;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding-right:10px;
+    /*padding-top: 0px;
+    padding: 20px;*/
+    border: 1px solid #888;
+    /*width: 80%;*/ /* Could be more or less, depending on screen size */
+    width:420px;
+    height:152px;
+}
+
+#popup_container{
+	float:none;
+	padding-top:14px;
+}
+#popup_heading{
+	font-size: 1.8em;
+	line-height: 14px;
+	margin:5px;
+}
+#popup_content{
+	line-height: 14px;
+	font-size: 0.8em;
+}
+#popup_rovos_copy{
+	font-size: 1.8em;
+	margin:5px;
+	line-height: 14px;
+	font-weight: bold;
+}
+#enter_now{
+	line-height: 0px;
+}
+#enter_line{
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:10px;
+}
+}
+@media only screen and (min-width: 667px) {
+.center_copy{
+	display:block;
+	vertical-align: middle;
+	margin:auto;
+	position: relative;
+	width:auto;
+}
+.center_img{
+	display:block;
+	vertical-align: middle;
+	margin:auto;
+	position: relative;
+	width:auto;
+} 
+.modal-content {
+    /*background-color: #fefefe;*/
+    background: #ffffff url("/pages/rovosrail/images/popupbanner.png") no-repeat right top;
+    background-size: 100%;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding-right:10px;
+    /*padding-top: 0px;
+    padding: 20px;*/
+    border: 1px solid #888;
+    /*width: 80%;*/ /* Could be more or less, depending on screen size */
+    width:620px;
+    height:224px;
+}
+
+#popup_container{
+	float:right;
+	padding-top:36px;
+}
+#popup_heading{
+	font-size: 2.8em;
+	line-height: 16px;
+	margin:5px;
+}
+#popup_content{
+	line-height: 16px;
+	font-size: 1.2em;
+}
+#popup_rovos_copy{
+	font-size: 2.8em;
+	margin:5px;
+	line-height: 16px;
+	font-weight: bold;
+}
+}
+
+@media only screen and (min-width: 800px) {
+.modal-content {
+    /*background-color: #fefefe;*/
+    background: #ffffff url("/pages/rovosrail/images/popupbanner.png") no-repeat right top;
+    background-size: 100%;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding-right:10px;
+    /*padding-top: 0px;
+    padding: 20px;*/
+    border: 1px solid #888;
+    /*width: 80%;*/ /* Could be more or less, depending on screen size */
+    width:750px;
+    height:269px;
+}
+#popup_container{
+	float:right;
+	padding-top:52px;
+}
+#popup_heading{
+	font-size: 3em;
+	line-height: 16px;
+	margin:5px;
+}
+#popup_content{
+	line-height: 16px;
+	font-size: 1.4em;
+}
+#popup_rovos_copy{
+	font-size: 3em;
+	margin:5px;
+	line-height: 16px;
+	font-weight: bold;
+}
+}
+
+@media only screen and (min-width: 1050px) {
+ .center_copy{
+	display:block;
+	vertical-align: middle;
+	margin:auto;
+	position: relative;
+	width:50%;
+}
+.center_img{
+	display:block;
+	vertical-align: middle;
+	margin:auto;
+	position: relative;
+	width:25%;
+}
+}
+@media only screen and (min-width: 1220px) {
+ .center_copy{
+	display:inline-block;
+	vertical-align: middle;
+	margin:auto;
+	position: relative;
+	width:50%;
+}
+.center_img{
+	display:inline-block;
+	vertical-align: middle;
+	margin:auto;
+	position: relative;
+	width:25%;
+}
+}
+/*.social-nav {
+    width: 10px;
+}*/

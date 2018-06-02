@@ -1,0 +1,26 @@
+<?php
+
+
+include_once('../../includes/dbal/dlinc.php');
+include_once('../../includes/settings.php');
+$dl = new DataLayer();
+$dl->dbCon($dlhostname, $dlusername, $dlpassword, $dldbname);
+$dl->debug = false;
+
+
+
+echo $_POST['user_name'];
+
+	
+		$dl->insert('user_details', array(
+			'fname'=>$_POST['user_name'],
+			'start_date'=>strtotime($_POST['start_date']),
+			'end_date'=>strtotime($_POST['end_date']),
+			'store_id'=>$_POST['store_id']						
+			//'store_name'=>$_POST['store_name']			
+		));
+
+
+
+
+?>

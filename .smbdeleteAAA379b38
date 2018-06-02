@@ -1,0 +1,99 @@
+<?php
+
+  session_start();
+  // $_SESSION['start'] = time(); // Taking now logged in time.
+  // // Ending a session in 30 minutes from the starting time.
+  // $_SESSION['expire'] = $_SESSION['start'] + (1 * 60);
+  // $now = time(); // Checking the time now when home page starts.
+
+  // if ($now > $_SESSION['expire']) {
+  //     session_destroy();
+  // }
+
+
+if(!isset($_SESSION['day'])){
+  $_SESSION['day']=$_GET['day'];
+  $_SESSION['month']=$_GET['month'];
+  $_SESSION['year']= $_GET['year'];
+  $_SESSION['userLocation']=$_GET['userLocation'];
+}else{
+	session_unset();
+	session_destroy();
+}
+echo $_SESSION['day'];
+echo $_SESSION['month'];
+echo $_SESSION['year'];
+echo $_SESSION['userLocation'];
+
+
+?>
+<?php
+	
+	include 'includes/config.php';
+	include 'includes/head.php';
+?>
+<script>
+if ($.cookie('is_legal') === '' || $.cookie('is_legal') === 'undefined' || $.cookie('is_legal') !== 'yes'){$(location).attr('href', ara);}
+</script>
+<?php
+	include 'includes/header_nav.php';
+?>
+<div class="main-content home-copy">
+<div class="left-container">
+	<div class="hippo-large">
+		<img src="elements/hippo-large.png" alt="">
+	</div>
+</div>
+<div class="home-container">
+	<div class="right-container">
+		<h1 class="highlight">WHY FAT BASTARD?</h1>
+		<p>When <span class="highlight smcap tandg"><span class="cap">T</span>hierry and <span class="cap">G</span>uy</span> first created these delicious wines, they did it with gusto. They poured their hearts, souls and great dollops of generosity into every bottle. <br> 
+			In fact, it was a great big discovery (in winemaking terms) that led to the name <span class="highlight fb">'Fat Bastard.'</span> <span class="mobile-hide-read-more "> It comes from having left the wine on the lees for a lot longer than usual, which allowed it to develop more fully and completely. And when tasted, there was simply no other way to describe it other than: <span class="highlight saying">"Well, now that's a fat bastard!"</span> </p>
+			<p>
+			This tradition of creating full-bodied wines to be enjoyed with bellyfuls of laughs and good-natured cheer continues today. Our winemakers give nothing short of their all when meticulously nurturing them to perfection. Whether it's a celebration, a kuier or a <span class="highlight">"COME ON OVER!"</span>, there's a Fat Bastard (or two) waiting to be opened.</p></span>
+		<br>
+		<button class="hidden-desktop read-more">Read More</button>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div>
+<div class="call-to-action-divider">
+	<h1>Go on, OPEN A BOTTLE <br class="hidden-desktop"> and wallow in <i>luxury</i>.</h1>
+</div>
+</div>
+<div class="call-to-action">
+<div class="left-container">
+	<div class="outer">
+		<div class="stamp stamp-1"></div>
+		<div class="inner">
+			<h2>Show the world how you</h2><h1>LIVE LARGE.</h1>
+			<a href="pages/live_large.php"><button>SEND A PERSONALISED POSTCARD</button></a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="right-container">
+	<div class="outer">
+		<div class="stamp stamp-2"></div>
+		
+		<div class="inner">
+			<h2>Subscribe to recieve our </h2><h1>LATEST NEWS.</h1>
+			<a href="pages/contact.php"><button>CLICK HERE</button></a>
+		</div>
+	</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<?php
+	include 'includes/footer.php';
+?>
+<script>
+</script>
+<script>
+	$('a.home').css({
+		'font-weight': '800',
+		'color': '#EAB332'
+	});
+</script>

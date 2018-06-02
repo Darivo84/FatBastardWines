@@ -1,0 +1,1580 @@
+#visit_website{
+	color: #EAB332;
+}
+#rovos_hippo_left{
+	background: #980747 url("/pages/rovosrail/images/hippo.png") no-repeat left bottom;
+	background-size: 80%;
+	height: 520px;
+	display: inline;
+}
+#rovos_hippo_right{
+	display: inline;
+}
+.rovos_main_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	background: #ffffff url("/pages/rovosrail/images/main_banner.png") no-repeat right top;
+	background-size: 100%;
+}
+.rovos_thankyou_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	/*background: #ffffff url("/pages/rovosrail/images/thankyou.png") no-repeat right top;
+	background-size: 100%;*/
+	height:220px;
+	text-align: center;
+}
+#rovos_line_thank_you{
+	width:500px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+#rovos_train {
+	/*background: #ffffff url("/pages/rovosrail/images/train.png") no-repeat right top;
+	background-size: 100%;*/
+	background-color: transparent;
+	float:left;
+	height: 500px;
+	width: 300px;
+	display: inline-block;
+}
+#rovos_train img {
+	width:300px;
+	padding-left:50px;
+	padding-top:0px;
+}
+#rovos_thank_you_copy{
+	display: inline;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	margin-top:125px;
+	width:880px;
+}
+.highlight {
+  color: #EAB332;
+  -webkit-font-smoothing: antialiased;
+}
+.competition-copy .middle {
+  margin-top: 0px;
+}
+.squaredTwo {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #4F4F4F;
+}
+.squaredTwo-email, .squaredTwo-mobile, .squaredTwo-conditions {
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  margin: 1rem 0.2rem;
+  position: relative;
+  border-radius: 3px;
+  float: left;
+  border: 1px solid #000;
+}
+.squaredTwo-email label, .squaredTwo-mobile label, .squaredTwo-conditions label {
+  cursor: pointer;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  left: -4px;
+  top: -3px;
+}
+.squaredTwo-email label:after, .squaredTwo-mobile label:after, .squaredTwo-conditions label:after {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #EAB332;
+  top: 6px;
+  left: 7px;
+  border-radius: 2px;
+}
+.squaredTwo-email label:hover::after, .squaredTwo-mobile label:hover::after, .squaredTwo-conditions label:hover::after, .squaredTwo-human label:hover::after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  opacity: 0.3;
+}
+.squaredTwo-email input[type=checkbox]:checked + label:after, .squaredTwo-mobile input[type=checkbox]:checked + label:after, .squaredTwo-conditions input[type=checkbox]:checked + label:after, .squaredTwo-human input[type=checkbox]:checked + label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+#squaredTwo-human.valid #squaredTwo-human-label:after {
+  opacity: 1;
+}
+#squaredTwo-age.valid #squaredTwo-age-label:after {
+  opacity: 1;
+}
+.contact-form.competition-form #squaredTwo-conditions {
+    height: 22px;
+}
+.competition-form.contact-form .squaredTwo-email, .competition-form.contact-form .squaredTwo-mobile, .competition-form.contact-form .squaredTwo-conditions {
+    margin: 0.6rem 0.2rem 0px;
+}
+  .contact-form .squaredTwo-email, .contact-form .squaredTwo-mobile, .contact-form .squaredTwo-conditions {
+    width: 16px;
+    height: 15px;
+    background: #fcfff4;
+    margin: 1rem 0.2rem;
+    position: relative;
+    border-radius: 3px;
+    float: left;
+    border: 1px solid #000;
+  }
+/*  input[type=checkbox] {
+  visibility: visible;
+}*/
+
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    background: #EAB332;
+    box-shadow: inset 0px 0px 0px 4px #fff;
+}
+
+.radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+    background: #EAB332;
+    box-shadow: inset 0px 0px 0px 4px #fff;
+}
+
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+  outline: 1px solid #ddd; /* focus style */
+}
+.contact-form input, .contact-form select {
+    line-height: normal;
+    width: 420px;
+    padding: 13px 0px 12px 10px;
+    border: 1px solid #A6A6A6;
+    margin: 10px 0;
+    margin: 3px 0;
+    text-align:left;
+    border-radius: 0px;
+    -moz-appearance: none;
+  }
+input[type="checkbox" i] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+/*input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border: 2px inset;
+}
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 11px BlinkMacSystemFont;
+}
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}*/
+.div_interests{
+	display: inline-block;
+	text-align: left;
+}
+.div_social_channels{
+	display: block;
+	text-align: left;
+	/*float:left;*/
+}
+.div_subscriptions{
+	display: inline-block;
+	text-align: left;
+}
+.div_gender{
+	text-align: left;
+	padding-left: 10px;
+}
+.div_birthday{
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+	padding-left: 10px;
+}
+#datepicker{
+	width:306px;
+	margin-left: 20px;
+}
+.div_over_18{
+	/*display: inline-block;*/
+	/*float:left;*/
+}
+.div_over_18_mobile{
+	display: none;
+}
+.submit_btn{
+	margin:0px;
+	padding:0px;
+	width:25px;
+	/*height:100px;*/
+}
+#rovos_social_copy{
+	font-size: 0.4em;
+	display: inline-block;
+	width:25%;
+}
+#rovos_visit_website_copy{
+	font-size: 0.4em;
+	display: inline-block;	
+	width:35%;
+	color: #EAB332;
+}
+.rovos_social img{
+	width:30px;
+	height: 30px;
+	padding-left:5px;
+	/*padding-right:5px;*/
+}
+#entry_heading{
+	font-size: 3em;
+	line-height: 0.9em;
+}
+#entry_sub_heading{
+	font-size: 1.4em;
+	line-height: 0.9em;	
+}
+#rovos_heading{
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 0.9em;
+}
+#rovos_line{
+	width:416px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 30px;
+}
+#how_to_enter{
+	padding-top: 30px;
+	font-size: 1.5em;
+}
+#sub_heading1{
+	padding-top: 30px;	
+	font-size: 1.5em;
+}
+#rovos_part0{
+	font-size: 1.4em;
+}
+#rovos_part1{
+	font-size: 1.4em;
+}
+
+#rovos_part2{
+	padding-top:20px;
+	font-size: 1.4em;
+}
+#rovos_form_heading{
+	font-size: 1.9em;
+	font-weight: bold;
+	padding-bottom:20px;
+}
+.rovos_form_sub_heading{
+	font-size: 1.2em;
+	/*font-weight: bold;*/
+	padding-bottom:20px;
+	padding-top:20px;
+	color: #EAB332
+}
+#form_div{
+	width:440px;
+	margin:0 auto;
+}
+.contact-form.competition-form {
+  width: 640px;
+  text-align: center;
+  /*margin: -10rem auto 13px;*/
+}
+.underline{
+	text-decoration: underline;
+}
+.left_align{
+	text-align: left;
+}
+.padleft35{
+	padding-left:35px;
+}
+#rovos_submit_btn{
+	height:50px;
+	width:175px;
+	padding:0px;
+	margin:0px;
+	margin-top:20px;
+}
+@media (max-width: 399px) {
+#thank_you_copy_container{
+	margin-left: 40px;
+}
+#rovos_hippo_left{
+	background: #980747 url("/pages/rovosrail/images/hippo.png") no-repeat left bottom;
+	background-size: 100%;
+	height: 235px;
+	display: inline-block;
+	float:left;
+}
+.rovos_thankyou_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	/*background: #ffffff url("/pages/rovosrail/images/thankyou.png") no-repeat right top;
+	background-size: 100%;*/
+	height:200px;
+	text-align: center;
+	padding-top:50px !important;	
+}
+#rovos_thank_you_copy{
+	display: inline;
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	margin-top:0px;
+	width:350px;
+}
+#rovos_social_copy{
+	font-size: 0.3em;
+	display: inline-block;
+	width:35%;
+    vertical-align: middle;
+
+}
+#rovos_visit_website_copy{
+	font-size: 0.3em;
+	display: inline-block;	
+	width:40%;
+	color: #EAB332;
+	vertical-align: middle;
+}
+#rovos_train {
+	display: none;
+}
+#rovos_train img {
+	width:160px;
+	padding-left:0px;
+	padding-top:25px;
+}
+#rovos_line_thank_you{
+	width:300px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.contact-form.competition-form {
+  width: 320px;
+  text-align: center;
+  /*margin: -10rem auto 13px;*/
+}
+#form_div{
+	width:320px;
+	margin:0 auto;
+}
+.contact-form input, .contact-form select {
+    line-height: normal;
+    width: 320px;
+    padding: 13px 0px 12px 10px;
+    border: 1px solid #A6A6A6;
+    margin: 10px 0;
+    margin: 3px 0;
+    text-align:left;
+    border-radius: 0px;
+    -moz-appearance: none;
+  }
+.rovos_main_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	background: #980747;
+	
+}
+.competition-copy div {
+ 	width: 300px;
+    max-width: 300px;
+}
+.contact-copy {
+    padding-bottom: 35px;
+    padding-top:50px;
+    background: #980747;
+}
+#entry_heading{
+	font-size: 1.5em;
+	line-height: 0.8em;
+}
+#rovos_heading{
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 0.8em;
+}
+#entry_sub_heading{
+	font-size: 0.8em;
+	line-height: 0.9em;	
+}
+#rovos_line{
+	width:206px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 5px;
+}
+#how_to_enter{
+	padding-top: 0px;
+	font-size: 0.9em;
+}
+#sub_heading1{
+	padding-top: 0px;
+	font-size: 0.9em;	
+}
+#rovos_part0{
+	font-size: 0.9em;
+}
+#rovos_part1{
+	font-size: 0.9em;
+}
+
+#rovos_part2{
+	padding-top:5px;
+	font-size: 0.9em;
+}
+#datepicker{
+	width:200px;
+	margin-left: 20px;
+}
+.div_interests{
+	display: inline-block;
+	text-align: left;
+	width:100%;
+}
+.div_over_18{
+	/*display: inline-block;*/
+	/*float:left;*/
+	display: none;
+}
+.div_over_18_mobile{
+	display: block;
+}
+}
+@media (min-width: 400px) {
+#thank_you_copy_container{
+	margin-left: 40px;
+}
+#rovos_hippo_left{
+	background: #980747 url("/pages/rovosrail/images/hippo.png") no-repeat left bottom;
+	background-size: 100%;
+	height: 235px;
+	display: inline-block;
+	float:left;
+}
+.rovos_thankyou_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	/*background: #ffffff url("/pages/rovosrail/images/thankyou.png") no-repeat right top;
+	background-size: 100%;*/
+	height:200px;
+	text-align: center;
+	padding-top:50px !important;	
+}
+#rovos_thank_you_copy{
+	display: inline;
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	margin-top:0px;
+	width:350px;
+}
+#rovos_social_copy{
+	font-size: 0.3em;
+	display: inline-block;
+	width:35%;
+	vertical-align: middle;
+}
+#rovos_visit_website_copy{
+	font-size: 0.3em;
+	display: inline-block;	
+	width:40%;
+	color: #EAB332;
+	vertical-align: middle;
+}
+#rovos_train {
+	display: none;
+}
+#rovos_train img {
+	width:160px;
+	padding-left:0px;
+	padding-top:25px;
+}
+#rovos_line_thank_you{
+	width:300px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.contact-form.competition-form {
+  width: 320px;
+  text-align: center;
+  /*margin: -10rem auto 13px;*/
+}
+#form_div{
+	width:320px;
+	margin:0 auto;
+}
+.contact-form input, .contact-form select {
+    line-height: normal;
+    width: 320px;
+    padding: 13px 0px 12px 10px;
+    border: 1px solid #A6A6A6;
+    margin: 10px 0;
+    margin: 3px 0;
+    text-align:left;
+    border-radius: 0px;
+    -moz-appearance: none;
+  }
+.rovos_main_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	background: #980747;
+	
+}
+.competition-copy div {
+ 	width: 300px;
+    max-width: 300px;
+}
+.contact-copy {
+    padding-bottom: 160px;
+    padding-top:50px;
+    background: #980747;
+}
+#entry_heading{
+	font-size: 1.5em;
+	line-height: 0.8em;
+}
+#rovos_heading{
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 0.8em;
+}
+#entry_sub_heading{
+	font-size: 0.8em;
+	line-height: 0.9em;	
+}
+#rovos_line{
+	width:206px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 5px;
+}
+#how_to_enter{
+	padding-top: 0px;
+	font-size: 0.9em;
+}
+#sub_heading1{
+	padding-top: 0px;
+	font-size: 0.9em;	
+}
+#rovos_part0{
+	font-size: 0.9em;
+}
+#rovos_part1{
+	font-size: 0.9em;
+}
+
+#rovos_part2{
+	padding-top:5px;
+	font-size: 0.9em;
+}
+#datepicker{
+	width:200px;
+	margin-left: 20px;
+}
+.div_interests{
+	display: inline-block;
+	text-align: left;
+	width:100%;
+}
+.div_over_18{
+	/*display: inline-block;*/
+	/*float:left;*/
+	display: none;
+}
+.div_over_18_mobile{
+	display: block;
+}
+}
+@media only screen and (min-width: 480px) {
+#thank_you_copy_container{
+	margin-left: 30px;
+}
+#rovos_hippo_left{
+	background: #980747 url("/pages/rovosrail/images/hippo.png") no-repeat left bottom;
+	background-size: 85%;
+	height: 285px;
+	display: inline-block;
+	float:left;
+}
+.rovos_thankyou_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	/*background: #ffffff url("/pages/rovosrail/images/thankyou.png") no-repeat right top;
+	background-size: 100%;*/
+	height:100px;
+	text-align: center;
+	padding-top:50px !important;	
+}
+#rovos_thank_you_copy{
+	display: inline;
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	margin-top:0px;
+	width:350px;
+}
+#rovos_social_copy{
+	font-size: 0.3em;
+	display: inline-block;
+	width:28%;
+	vertical-align: middle;
+}
+#rovos_visit_website_copy{
+	font-size: 0.3em;
+	display: inline-block;	
+	width:30%;
+	color: #EAB332;
+	vertical-align: middle;
+}
+#rovos_train {
+	display: none;
+}
+#rovos_train img {
+	width:160px;
+	padding-left:0px;
+	padding-top:25px;
+}
+#rovos_line_thank_you{
+	width:300px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.contact-form.competition-form {
+  width: 320px;
+  text-align: center;
+  /*margin: -10rem auto 13px;*/
+}
+#form_div{
+	width:320px;
+	margin:0 auto;
+}
+.contact-form input, .contact-form select {
+    line-height: normal;
+    width: 400px;
+    padding: 13px 0px 12px 10px;
+    border: 1px solid #A6A6A6;
+    margin: 10px 0;
+    margin: 3px 0;
+    text-align:left;
+    border-radius: 0px;
+    -moz-appearance: none;
+  }
+.rovos_main_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	background: #980747;
+	
+}
+.competition-copy div {
+ 	width: 400px;
+    max-width: 400px;
+}
+.contact-copy {
+    padding-bottom: 185px;
+    padding-top:30px;
+    background: #980747;
+}
+#entry_heading{
+	font-size: 1.5em;
+	line-height: 0.8em;
+}
+#rovos_heading{
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 0.8em;
+}
+#entry_sub_heading{
+	font-size: 0.8em;
+	line-height: 0.9em;	
+}
+#rovos_line{
+	width:206px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 5px;
+}
+#how_to_enter{
+	padding-top: 0px;
+	font-size: 0.9em;
+}
+#sub_heading1{
+	padding-top: 0px;
+	font-size: 0.9em;	
+}
+#rovos_part0{
+	font-size: 0.9em;
+}
+#rovos_part1{
+	font-size: 0.9em;
+}
+
+#rovos_part2{
+	padding-top:5px;
+	font-size: 0.9em;
+}
+#datepicker{
+	width:200px;
+	margin-left: 20px;
+}
+.div_interests{
+	display: inline-block;
+	text-align: left;
+	width:100%;
+}
+.div_over_18{
+	/*display: inline-block;*/
+	/*float:left;*/
+	display: block;
+}
+.div_over_18_mobile{
+	display: none;
+}
+}
+@media only screen and (min-width: 667px) {
+#rovos_hippo_left{
+	background: #980747 url("/pages/rovosrail/images/hippo.png") no-repeat left bottom;
+	background-size: 85%;
+	height: 410px;
+	display: inline-block;
+	float:left;
+}
+.rovos_thankyou_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	/*background: #ffffff url("/pages/rovosrail/images/thankyou.png") no-repeat right top;
+	background-size: 100%;*/
+	height:200px;
+	text-align: center;
+	padding-top:50px !important;
+}
+#rovos_thank_you_copy{
+	display: inline;
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	margin-top:40px;
+	padding-top:20px;
+	width:350px;
+}
+#rovos_social_copy{
+	font-size: 0.3em;
+	display: inline-block;
+	width:30%;
+	vertical-align: middle;
+}
+#rovos_visit_website_copy{
+	font-size: 0.3em;
+	display: inline-block;	
+	width:40%;
+	color: #EAB332;
+	vertical-align: middle;
+}
+#rovos_train {
+	/*background: #ffffff url("/pages/rovosrail/images/train.png") no-repeat right top;
+	background-size: 100%;*/
+	background-color: transparent;
+	float:left;
+	height: 500px;
+	width: 300px;
+	display: inline-block;
+}
+#rovos_train img {
+	width:200px;
+	padding-left:0px;
+	padding-top:25px;
+}
+#rovos_line_thank_you{
+	width:320px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.contact-form.competition-form {
+  width: 640px;
+  text-align: center;
+  /*margin: -10rem auto 13px;*/
+}
+#form_div{
+	width:440px;
+	margin:0 auto;
+}
+.contact-form input, .contact-form select {
+    line-height: normal;
+    width: 420px;
+    padding: 13px 0px 12px 10px;
+    border: 1px solid #A6A6A6;
+    margin: 10px 0;
+    margin: 3px 0;
+    text-align:left;
+    border-radius: 0px;
+    -moz-appearance: none;
+  }
+.rovos_main_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	background: #ffffff url("/pages/rovosrail/images/main_banner.png") no-repeat right top;
+	background-size: 100%;
+}
+.competition-copy div {
+ 	width: 650px;
+    max-width: 650px;
+}
+.contact-copy {
+    padding-bottom: 210px;
+    padding-top:2px;
+}
+#entry_heading{
+	font-size: 1.5em;
+	line-height: 0.8em;
+}
+#rovos_heading{
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 0.8em;
+}
+#entry_sub_heading{
+	font-size: 0.8em;
+	line-height: 0.9em;	
+}
+#rovos_line{
+	width:272px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 2px;
+}
+#how_to_enter{
+	padding-top: 0px;
+	font-size: 0.9em;
+}
+#sub_heading1{
+	padding-top: 0px;
+	font-size: 0.9em;	
+}
+#rovos_part0{
+	font-size: 0.9em;
+}
+#rovos_part1{
+	font-size: 0.9em;
+}
+
+#rovos_part2{
+	padding-top:2px;
+	font-size: 0.9em;
+}
+#datepicker{
+	width:306px;
+	margin-left: 20px;
+}
+.div_interests{
+	display: inline-block;
+	text-align: left;
+	width:auto;
+}
+.div_over_18{
+	/*display: inline-block;*/
+	/*float:left;*/
+}
+.div_over_18_mobile{
+	display: none;
+}
+}
+
+@media only screen and (min-width: 800px) {
+#thank_you_copy_container{
+	margin-left: 0px;
+	margin-top:100px;
+}
+#rovos_hippo_left{
+	background: #980747 url("/pages/rovosrail/images/hippo.png") no-repeat left bottom;
+	background-size: 70%;
+	height: 470px;
+	display: inline-block;
+	float:left;
+}
+.rovos_thankyou_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	/*background: #ffffff url("/pages/rovosrail/images/thankyou.png") no-repeat right top;
+	background-size: 100%;*/
+	height:220px;
+	text-align: center;
+	padding-top:50px !important;	
+}
+#rovos_thank_you_copy{
+	display: inline;
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	margin-top:100px;
+	width:480px;
+}
+#rovos_social_copy{
+	font-size: 0.3em;
+	display: inline-block;
+	width:30%;
+	vertical-align: middle;
+}
+#rovos_visit_website_copy{
+	font-size: 0.3em;
+	display: inline-block;	
+	width:40%;
+	color: #EAB332;
+	vertical-align:middle;
+}
+#rovos_train img {
+	width:200px;
+	padding-left:0px;
+	padding-top:50px;
+}
+#rovos_line_thank_you{
+	width:400px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.contact-form.competition-form {
+  width: 640px;
+  text-align: center;
+  /*margin: -10rem auto 13px;*/
+}
+#form_div{
+	width:440px;
+	margin:0 auto;
+}
+.contact-form input, .contact-form select {
+    line-height: normal;
+    width: 420px;
+    padding: 13px 0px 12px 10px;
+    border: 1px solid #A6A6A6;
+    margin: 10px 0;
+    margin: 3px 0;
+    text-align:left;
+    border-radius: 0px;
+    -moz-appearance: none;
+  }
+.rovos_main_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	background: #ffffff url("/pages/rovosrail/images/main_banner.png") no-repeat right top;
+	background-size: 100%;
+}
+.competition-copy div {
+ 	width: 790px;
+    max-width: 790px;
+}
+.contact-copy {
+    padding-bottom: 250px;
+    padding-top:12px;
+}
+#entry_heading{
+	font-size: 2.2em;
+	line-height: 0.8em;
+}
+#rovos_heading{
+	font-size: 2.2em;
+	font-weight: bold;
+	line-height: 0.8em;
+}
+#entry_sub_heading{
+	font-size: 1em;
+	line-height: 0.9em;	
+}
+#rovos_line{
+	width:302px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 5px;
+}
+#how_to_enter{
+	padding-top: 5px;
+	font-size: 1em;
+}
+#sub_heading1{
+	padding-top: 5px;
+	font-size: 1em;	
+}
+#rovos_part0{
+	font-size: 0.9em;
+}
+#rovos_part1{
+	font-size: 0.9em;
+}
+
+#rovos_part2{
+	padding-top:5px;
+	font-size: 0.9em;
+}
+#datepicker{
+	width:306px;
+	margin-left: 20px;
+}
+.div_interests{
+	display: inline-block;
+	text-align: left;
+	width:auto;
+}
+.div_over_18{
+	/*display: inline-block;*/
+	/*float:left;*/
+}
+.div_over_18_mobile{
+	display: none;
+}
+}
+
+@media only screen and (min-width: 1050px) {
+#thank_you_copy_container{
+	margin-left: 100px;
+	margin-top:100px;
+}
+#rovos_hippo_left{
+	background: #980747 url("/pages/rovosrail/images/hippo.png") no-repeat left bottom;
+	background-size: 70%;
+	height: 480px;
+	display: inline-block;
+	float:left;
+}
+#rovos_thank_you_copy{
+	display: inline;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	margin-top:125px;
+	width:735px;
+}
+#rovos_social_copy{
+	font-size: 0.3em;
+	display: inline-block;
+	width:25%;
+	vertical-align: middle;
+}
+#rovos_visit_website_copy{
+	font-size: 0.3em;
+	display: inline-block;	
+	width:35%;
+	color: #EAB332;
+	vertical-align: middle;
+}
+#rovos_train img {
+	width:250px;
+	padding-left:50px;
+	padding-top:25px;
+}
+#rovos_line_thank_you{
+	width:500px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.contact-form.competition-form {
+  width: 640px;
+  text-align: center;
+  /*margin: -10rem auto 13px;*/
+}
+.contact-form input, .contact-form select {
+    line-height: normal;
+    width: 420px;
+    padding: 13px 0px 12px 10px;
+    border: 1px solid #A6A6A6;
+    margin: 10px 0;
+    margin: 3px 0;
+    text-align:left;
+    border-radius: 0px;
+    -moz-appearance: none;
+  }
+#form_div{
+	width:440px;
+	margin:0 auto;
+}
+.rovos_main_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	background: #ffffff url("/pages/rovosrail/images/main_banner.png") no-repeat right top;
+	background-size: 100%;
+}
+.competition-copy div {
+ 	width: 960px;
+    max-width: 960px;
+}
+.contact-copy {
+    padding-bottom: 260px;
+    padding-top:15px;
+}
+#entry_heading{
+	font-size: 2.4em;
+	line-height: 0.8em;
+}
+#rovos_heading{
+	font-size: 2.4em;
+	font-weight: bold;
+	line-height: 0.8em;
+}
+#entry_sub_heading{
+	font-size: 1em;
+	line-height: 0.9em;	
+}
+#rovos_line{
+	width:332px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 5px;
+}
+#how_to_enter{
+	padding-top: 5px;
+	font-size: 1.2em;
+}
+#sub_heading1{
+	padding-top: 5px;
+	font-size: 1.2em;	
+}
+#rovos_part0{
+	font-size: 1.1em;
+}
+#rovos_part1{
+	font-size: 1.1em;
+}
+
+#rovos_part2{
+	padding-top:5px;
+	font-size: 1.1em;
+}
+#datepicker{
+	width:306px;
+	margin-left: 20px;
+}
+.div_interests{
+	display: inline-block;
+	text-align: left;
+	width:auto;
+}
+.div_over_18{
+	/*display: inline-block;*/
+	/*float:left;*/
+}
+.div_over_18_mobile{
+	display: none;
+}
+}
+@media only screen and (min-width: 1220px) {
+#thank_you_copy_container{
+	margin-left: 200px;
+	margin-top:100px;
+}
+#rovos_hippo_left{
+	background: #980747 url("/pages/rovosrail/images/hippo.png") no-repeat left bottom;
+	background-size: 75%;
+	height: 520px;
+	display: inline-block;
+	float:left;
+}
+#rovos_thank_you_copy{
+	display: inline;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	margin-top:125px;
+	width:880px;
+}
+#rovos_social_copy{
+	font-size: 0.4em;
+	display: inline-block;
+	width:25%;
+	vertical-align: middle;
+}
+#rovos_visit_website_copy{
+	font-size: 0.4em;
+	display: inline-block;	
+	width:35%;
+	color: #EAB332;
+	vertical-align: middle;
+}
+#rovos_train img {
+	width:270px;
+	padding-left:50px;
+	padding-top:50px;
+}
+#rovos_line_thank_you{
+	width:500px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.contact-form.competition-form {
+  width: 640px;
+  text-align: center;
+  /*margin: -10rem auto 13px;*/
+}
+#form_div{
+	width:440px;
+	margin:0 auto;
+}
+.contact-form input, .contact-form select {
+    line-height: normal;
+    width: 420px;
+    padding: 13px 0px 12px 10px;
+    border: 1px solid #A6A6A6;
+    margin: 10px 0;
+    margin: 3px 0;
+    text-align:left;
+    border-radius: 0px;
+    -moz-appearance: none;
+  }
+.rovos_main_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	background: #ffffff url("/pages/rovosrail/images/main_banner.png") no-repeat right top;
+	background-size: 100%;
+}
+.competition-copy div {
+ 	width: 960px;
+    max-width: 960px;
+}
+.contact-copy {
+    padding-bottom: 300px;
+    padding-top:20px;
+}
+#entry_heading{
+	font-size: 2.8em;
+	line-height: 0.8em;
+}
+#rovos_heading{
+	font-size: 2.8em;
+	font-weight: bold;
+	line-height: 0.8em;
+}
+#entry_sub_heading{
+	font-size: 1.2em;
+	line-height: 0.9em;	
+}
+#rovos_line{
+	width:386px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 00px;
+}
+#how_to_enter{
+	padding-top: 20px;
+	font-size: 1.2em;
+}
+#sub_heading1{
+	padding-top: 20px;	
+	font-size: 1.2em;
+}
+#rovos_part0{
+	font-size: 1.2em;
+}
+#rovos_part1{
+	font-size: 1.2em;
+}
+
+#rovos_part2{
+	padding-top:10px;
+	font-size: 1.2em;
+}
+#datepicker{
+	width:306px;
+	margin-left: 20px;
+}
+.div_interests{
+	display: inline-block;
+	text-align: left;
+	width:auto;
+}
+.div_over_18{
+	/*display: inline-block;*/
+	/*float:left;*/
+}
+.div_over_18_mobile{
+	display: none;
+}
+}
+@media only screen and (min-width: 1550px) {
+#thank_you_copy_container{
+	margin-left: 450px;
+	margin-top:100px;
+}
+#rovos_hippo_left{
+	background: #980747 url("/pages/rovosrail/images/hippo.png") no-repeat left bottom;
+	background-size: 75%;
+	height: 520px;
+	display: inline;
+}
+.contact-form.competition-form {
+  width: 640px;
+  text-align: center;
+  /*margin: -10rem auto 13px;*/
+}
+#form_div{
+	width:440px;
+	margin:0 auto;
+}
+.contact-form input, .contact-form select {
+    line-height: normal;
+    width: 420px;
+    padding: 13px 0px 12px 10px;
+    border: 1px solid #A6A6A6;
+    margin: 10px 0;
+    margin: 3px 0;
+    text-align:left;
+    border-radius: 0px;
+    -moz-appearance: none;
+  }
+#rovos_train img {
+	width:300px;
+	padding-left:50px;
+	padding-top:0px;
+}
+.rovos_main_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	background: #ffffff url("/pages/rovosrail/images/main_banner.png") no-repeat right top;
+	background-size: 100%;
+}
+.competition-copy div {
+ 	width: 960px;
+    max-width: 960px;
+}
+.contact-copy {
+    padding-bottom: 300px;
+    padding-top:25px;
+}
+#entry_heading{
+	font-size: 3em;
+	line-height: 0.9em;
+}
+#rovos_heading{
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 0.9em;
+}
+#entry_sub_heading{
+	font-size: 1.4em;
+	line-height: 0.9em;	
+}
+#rovos_line{
+	width:416px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+#how_to_enter{
+	padding-top: 20px;
+	font-size: 1.5em;
+}
+#sub_heading1{
+	padding-top: 20px;	
+	font-size: 1.5em;
+}
+#rovos_part0{
+	font-size: 1.4em;
+}
+#rovos_part1{
+	font-size: 1.4em;
+}
+
+#rovos_part2{
+	padding-top:20px;
+	font-size: 1.4em;
+}
+#datepicker{
+	width:306px;
+	margin-left: 20px;
+}
+.div_interests{
+	display: inline-block;
+	text-align: left;
+	width:auto;
+}
+.div_over_18{
+	/*display: inline-block;*/
+	/*float:left;*/
+}
+.div_over_18_mobile{
+	display: none;
+}
+}
+@media only screen and (min-width: 1700px) {
+#rovos_hippo_left{
+	background: #980747 url("/pages/rovosrail/images/hippo.png") no-repeat left bottom;
+	background-size: 80%;
+	height: 520px;
+	display: inline;
+}
+.contact-form.competition-form {
+  width: 640px;
+  text-align: center;
+  /*margin: -10rem auto 13px;*/
+}
+#form_div{
+	width:440px;
+	margin:0 auto;
+}
+.contact-form input, .contact-form select {
+    line-height: normal;
+    width: 420px;
+    padding: 13px 0px 12px 10px;
+    border: 1px solid #A6A6A6;
+    margin: 10px 0;
+    margin: 3px 0;
+    text-align:left;
+    border-radius: 0px;
+    -moz-appearance: none;
+  }
+.rovos_main_banner {
+	/*background-image: url("/pages/rovosrail/images/main_banner.png");
+	background-repeat: no-repeat;*/
+	background: #ffffff url("/pages/rovosrail/images/main_banner.png") no-repeat right top;
+	background-size: 100%;
+}
+.competition-copy div {
+ 	width: 960px;
+    max-width: 960px;
+}
+.contact-copy {
+    padding-bottom: 300px;
+    padding-top:45px;
+}
+#entry_heading{
+	font-size: 3em;
+	line-height: 0.9em;
+}
+#rovos_heading{
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 0.9em;
+}
+#entry_sub_heading{
+	font-size: 1.4em;
+	line-height: 0.9em;	
+}
+#rovos_line{
+	width:416px;
+	border-top: 1px solid #EAB332;
+	border-bottom:none;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+#how_to_enter{
+	padding-top: 20px;
+	font-size: 1.5em;
+}
+#sub_heading1{
+	padding-top: 20px;	
+	font-size: 1.5em;
+}
+#rovos_part0{
+	font-size: 1.4em;
+}
+#rovos_part1{
+	font-size: 1.4em;
+}
+
+#rovos_part2{
+	padding-top:20px;
+	font-size: 1.4em;
+
+}
+#datepicker{
+	width:306px;
+	margin-left: 20px;
+}
+.div_interests{
+	display: inline-block;
+	text-align: left;
+	width:auto;
+}
+.div_over_18{
+	/*display: inline-block;*/
+	/*float:left;*/
+}
+.div_over_18_mobile{
+	display: none;
+}
+
+}

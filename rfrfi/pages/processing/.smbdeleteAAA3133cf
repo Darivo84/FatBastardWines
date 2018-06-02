@@ -1,0 +1,31 @@
+<?php
+
+
+include_once('../../includes/dbal/dlinc.php');
+include_once('../../includes/settings.php');
+$dl = new DataLayer();
+$dl->dbCon($dlhostname, $dlusername, $dlpassword, $dldbname);
+$dl->debug = false;
+
+
+
+echo $_POST['user_name'];
+
+	
+		$dl->insert('user_details', array(
+			'fname'=>$_POST['user_name'],
+			'sname'=>$_POST['user_surname'],
+			'email'=>$_POST['user_email'],
+			'contact'=>$_POST['user_tel'],
+			'b_year'=>$_POST['birth_year'],
+			'b_month'=>$_POST['birth_month'],
+			'b_day'=>$_POST['birth_day'],
+			'province'=>$_POST['user_location'],
+			'e_updates'=>$_POST['user_subscribe_email'],
+			'm_updates'=>$_POST['user_subc=scribe_mobile']
+		));
+
+
+
+
+?>

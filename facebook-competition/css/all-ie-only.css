@@ -1,0 +1,165 @@
+select::-ms-expand{display: none;}
+
+select {
+     appearance: none;
+}
+
+
+.contact-form .user-subscribe_email, .contact-form .user-subscribe_mobile {
+  font-size: 16px;
+margin-top: 20px;
+  float: left; }
+
+.contact-form .user-conditions {
+  float: left;
+
+margin-top: 20px;
+
+  font-size: 13px;
+  font-variant: normal; }
+
+.contact-form select {
+      padding: 12px 8px 10px 0;
+      }
+
+.contact-form .date-select, .user-location-wrapper {
+    position:relative;
+    z-index:0
+}
+.contact-form .date-select select, .user-location-wrapper select {
+    z-index:1;
+}
+
+.contact-form .date-select:before, .contact-form  .user-location-wrapper:before {
+    display:block;
+    position:absolute;
+    content:'';
+    right:7px;
+    height:22px;
+    width:20px;
+    margin:2px;
+    background:#fff;
+    z-index:5;
+}
+
+
+.details .date-select, .user-location-wrapper {
+    position:relative;
+    z-index:0
+}
+.details .date-select select, .user-location-wrapper select {
+    z-index:1;
+}
+
+.details .date-select:before, .details  .user-location-wrapper:before {
+    display:block;
+    position:absolute;
+    content:'';
+    right:4px;
+    height:22px;
+    width:20px;
+    margin:2px;
+    margin-top: 22px;
+    background:#fff;
+    z-index:5;
+}
+
+.details  .user-location-wrapper:before {
+    margin-top: -1px;
+
+}
+/*.contact-form .user-location-wrapper:before {
+
+    }*/
+.contact-form .date-select:before{
+    top:14px;
+}
+
+ .user-location-wrapper:before {
+    top: 24px;
+ }
+
+
+.ara-container .user-birth-ara{
+    width: 100%;
+}
+ .ara-container .date-select, .user-location-wrapper {
+    position:relative;
+    z-index:0
+}
+.ara-container .date-select select, .user-location-wrapper select {
+    z-index:1;
+}
+
+.ara-container .date-select:before, .user-location-wrapper:before {
+    display:block;
+    position:absolute;
+    content:'';
+    right:8px;
+    height:23px;
+    width:20px;
+    margin:3px 2px 2px 2px;
+    background:#5B2B81;
+    z-index:5;
+}
+.ara-container .date-select:before{
+    top:14px;
+}
+
+ .ara-container .user-location-wrapper:before {
+    top: 14px;
+    background: #fff;
+ }
+.contactform .contact-form-select.user-location-wrapper:before {
+    top: 27px;
+    right: 7px;
+    background:#fff !important;
+}
+
+#livelargeform .user-location-wrapper:before {
+    top: 23px;
+    right: 4px;
+    background:#fff;
+}
+
+#livelargeformmobile .user-location-wrapper:before {
+    top: 23px;
+    right: 4px;
+    background:#fff;
+}
+
+.wine-container button{
+    padding: 7px 20px 0px 20px;
+}
+
+.wine-lightbox .right .year{
+    padding: 10px 15px 5px 15px;
+}
+
+.wine-lightbox .right .heading h1{
+    margin: 10px 0px 0px 0px;
+}
+
+.ara-container .user-location-ara > p{
+    font-style: 18px !important;
+}
+
+button, button.ara{
+    padding: 15px 20px 10px 20px;
+}
+
+.ie  .ara-container select{
+   padding: 15px 9px 9px 9px;
+    }
+
+
+.ie button.gold{
+    padding: 18px 0px 10px 0px;
+}
+
+.details select, .details select,
+.details input, .details input{
+    padding: 18px 5px 10px 5px;
+
+}
+

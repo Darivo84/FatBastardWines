@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Todo List App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="page-wrapper">
+    <!-- Form for new Todo Items -->
+    <form id="new-todo-form" method="POST" action="#">
+      <input type="text" name="new-todo" id="new-todo" placeholder="Enter a todo item..." required>
+      <input type="text" name="name" value="Kayla" id="name" placeholder="Name" required>
+    <input type="submit" value="Submit">
+    </form>
+
+    <!-- Todo Item List -->
+    <ul id="todo-items"></ul>
+  </div>
+  <script src="node_modules/indexeddbshim/dist/indexeddbshim.min.js"></script>
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+  <script src="fileMan.js"></script>
+</body>
+</html>
